@@ -2,7 +2,7 @@ syntax = "proto3";
 
 import "google/protobuf/timestamp.proto";
 package proto;
-option go_package="./proto";
+option go_package="./pb";
 
 // 데이터를 계산하기 위한 gRPC 서비스
 // Client: Golang
